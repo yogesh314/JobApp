@@ -7,9 +7,12 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+//Adding these dependencies from Lombok So that we
+//don't need to create Getter, Setter and Constructors
+
 @Data
-@NoArgsConstructor                                  //Adding these dependencies from Lombok So that we
-@AllArgsConstructor                                 //don't need to create Getter, Setter and Constructors
+@NoArgsConstructor
+@AllArgsConstructor
 @Component
 public class JobPost {
     private int postId;
